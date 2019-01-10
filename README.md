@@ -8,7 +8,7 @@ Push button minecraft server uses 2 s3 buckets
 -world backup
 -terraform plan
 
-auto_shutoff.py - Runs on the minecraft sever 
+auto_shutoff.py - Runs on the minecraft server 
 
 mine-build.py - This is used in a lambda function. It pulls terraform files and startup bash script from s3 and starts an ec2 instance.
 
